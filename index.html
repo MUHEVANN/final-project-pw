@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.46.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="home">
+      <div class="drawer drawer-mobile">
+        <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content flex flex-col">
+          <!-- Page content here -->
+          <label for="my-drawer-2" class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </label>
+          <div class="lankah p-5 lg:px-20 lg:py-16 w-100">
+            <div
+              class="step-atas flex flex-col justify-content-center items-center"
+            >
+              <h1 class="text-center mb-5">Ikuti Step Dibawah Ini</h1>
+              <ul class="steps mb-5" style="width: 500px">
+                <li class="step step-warning"></li>
+                <li class="step"></li>
+                <li class="step"></li>
+                <li class="step"></li>
+                <li class="step"></li>
+              </ul>
+            </div>
+            <div class="text-step">
+              <h2>1.Identitas</h2>
+              <h3>Silahkan Isi Form Dibawah Ini dengan benar</h3>
+              <form action="">
+                <div
+                  class="matakuliah flex content-center items-center mb-3 mt-3"
+                >
+                  <p class="input-text">Pilih Mata Kuliah</p>
+                  <span class="px-3">:</span>
+                  <select class="select select-bordered w-full max-w-xs">
+                    <option disabled selected>Pilih Mata Kuliah</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">Nama Dosen Pengampu</p>
+                  <span class="px-3">:</span>
+                  <select class="select select-bordered w-full max-w-xs">
+                    <option disabled selected>Nama Dosen Pengampu</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">NIK</p>
+                  <span class="px-3">:</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    class="input input-bordered w-full max-w-xs"
+                  />
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">Tanggal Penyusun</p>
+                  <span class="px-3">:</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    class="input input-bordered w-full max-w-xs"
+                  />
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">Nomor Document</p>
+                  <span class="px-3">:</span>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    class="input input-bordered w-full max-w-xs"
+                  />
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">SKS</p>
+                  <span class="px-3">:</span>
+                  <select class="select select-bordered w-full max-w-xs">
+                    <option disabled selected>SKS</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
+                </div>
+                <div class="matakuliah flex content-center items-center mb-3">
+                  <p class="input-text">Semester</p>
+                  <span class="px-3">:</span>
+                  <select class="select select-bordered w-full max-w-xs">
+                    <option disabled selected>Semester</option>
+                    <option>Han Solo</option>
+                    <option>Greedo</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer-2" class="drawer-overlay"></label>
+
+          <ul class="menu p-4 w-80 text-base-content text-slate-50">
+            <!-- Sidebar content here -->
+            <li>
+              <a
+                ><div class="logo" style="width: 60px">
+                  <img src="logo amikom 1.png" alt="" style="width: 100%" />
+                </div>
+                <h1 class="text-slate-50">Amikom</h1>
+              </a>
+            </li>
+
+            <li>
+              <a
+                ><div class="profil flex flex-col items-center">
+                  <img
+                    class="mask mask-circle"
+                    src="https://placeimg.com/160/160/arch"
+                  />
+                  <h1>Prawito</h1>
+                  <h1>21.21.332</h1>
+                </div></a
+              >
+            </li>
+            <li><a>List RPS </a></li>
+            <li><a>Buat RPS</a></li>
+            <li><a>Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
